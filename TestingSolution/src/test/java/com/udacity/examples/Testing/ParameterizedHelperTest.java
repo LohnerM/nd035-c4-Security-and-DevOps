@@ -14,7 +14,6 @@ import org.junit.runners.Parameterized.Parameters;
 @RunWith(Parameterized.class)
 public class ParameterizedHelperTest {
 
-	@Test
 	public void test() {
 		fail("Not yet implemented");
 	}
@@ -33,7 +32,7 @@ public ParameterizedHelperTest(String inp, String out) {
 
 @Parameters
 public static Collection initData() {
-	String empNames[][] = {{"sareeta","sareeta"},{"john","jhn"}};
+	String empNames[][] = {{"sareeta","sareeta"},{"john","john"}};
 	return Arrays.asList(empNames);
 	
 }
